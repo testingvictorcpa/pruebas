@@ -94,6 +94,7 @@ public class RegistrationPage {
     }
 
     public void enterLastName(String lastName) {
+
         driver.findElement(lastNameField).sendKeys(lastName);
     }
 

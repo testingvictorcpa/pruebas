@@ -15,7 +15,6 @@ public class util {
         try {
             (new WebDriverWait(driver, ((long) timeOutOnSeconds))).until(ExpectedConditions.visibilityOf(webElement));
         } catch (Exception e) {
-            // Manejar la excepción aquí
             System.out.println("El elemento no se hizo visible dentro del tiempo de espera especificado.");
             e.printStackTrace();
         }

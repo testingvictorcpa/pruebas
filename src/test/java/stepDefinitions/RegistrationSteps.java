@@ -1,9 +1,6 @@
 package stepDefinitions;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.E;
 import io.cucumber.java.es.Entonces;
@@ -12,8 +9,6 @@ import org.encora.pageObjects.RegistrationPage;
 import org.encora.utils.SetupDriver;
 import org.openqa.selenium.WebDriver;
 import org.junit.Assert;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.springframework.beans.factory.annotation.Value;
 import io.cucumber.java.es.Y;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -21,7 +16,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-@SpringBootTest(classes = WebAutomationApplication.class)
+
 public class RegistrationSteps {
     private WebDriver driver;
     private String url;
