@@ -1,0 +1,23 @@
+#spring.profiles.active:
+#
+# Look for all properties in WebDriverProperties.md file.
+#
+webdriver:
+  browser: chrome #chrome, safari, firefox, edge
+  path: drivers/chrome/chromedriver.exe
+  headless: on
+  headless.dimension: --window-size=1400,600
+  pageload: EAGER
+
+
+###################
+### URL - SITES ###
+###################
+url:
+  qa: https://parabank.parasoft.com/parabank/index.htm
+
+###################
+### TIMING - PAGES ###
+###################
+timing:
+  waitingWebElement: 1
